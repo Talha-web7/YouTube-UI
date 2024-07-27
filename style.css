@@ -1,0 +1,269 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.gap{
+    color: white;
+}
+h1 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+h4 {
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+i {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+p,
+a {
+    font-size: 0.9rem;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 12px 0;
+    background-color: #000000;
+}
+
+
+/* header starts here */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 25px;
+    padding-right: 40px;
+    height: 65px;
+}
+
+.youtube-logo {
+    position: relative;
+    height: 30px;
+    width: 30px;
+}
+
+#logo-txt {
+    letter-spacing: -1.1px;
+    color: black;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex: 0 1 685px;
+    margin-left: 40px;
+    
+}
+.search-bar2{
+    color: black;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 6px;
+    margin-left: 10px;
+}
+.search-bar1{
+    border: 1px solid black;
+    height: 40px;
+}
+
+
+
+.search-bar .search {
+    min-width: 60px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    background-color: #dbdada;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+}
+.search-bar .mic {
+    height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dbdada;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right i {
+    margin-left: 25px;
+}
+
+.profile-pic {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 25px;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+i{
+    color: black;
+}
+/* body container */
+
+.body-container {
+    display: flex;
+    position: fixed;
+    height: calc( 100vh - 60px);
+    top: 60px;
+    
+}
+
+
+/* sidebar starts here */
+
+.sidebar {
+    padding-top: 10px;
+    width: 230px;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    color: #000000;
+    font-weight:500;
+}
+
+.sidebar-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    cursor: pointer;
+    height: 40px;
+}
+.sidebar-item i {
+    margin-right: 10px;
+}
+/* main content starts here */
+
+.content {
+    width: calc(100vw - 240px);
+}
+
+.video-button-wrapper {
+    background-color: #ffffff;
+    display: flex;
+    padding-left: 17px;
+}
+.video-button {
+    margin: 12px 6px;
+    background-color: #dbdada;
+    padding: 6px 12px;
+    border: 1px solid #dbdada;
+    border-radius: 10px;
+    white-space: nowrap;
+    color: #000000;
+    font-weight: bold;
+}
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 18px;
+    padding: 20px 25px;
+    background-color: #ffffff;
+    overflow-y: scroll;
+    height: calc(100vh - 116px);
+}
+
+.video-content-cover {
+    position: relative;
+}
+
+.video-content {
+    margin-bottom: 25px;
+    position: relative;
+    transition: .5s;
+    width: 100%;
+}
+
+.video-box {
+    position: relative;
+    width: auto;
+    height: 145px;
+    display: block;
+    border: 1px solid white;
+    border-radius: 14px;
+}
+.video-details {
+    display: flex;
+    color: #000000;
+    padding-top: 12px;
+}
+.channel-logo {
+    position: relative;
+    min-width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.detail {
+    margin-left: 12px;
+}
+.title {
+    font-size: .9rem;
+}
+.channel-name {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #aaa;
+}
+
+  #all{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+
+ i{
+    color: black;
+  }
